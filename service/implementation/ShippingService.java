@@ -2,7 +2,7 @@ package service.implementation;
 
 import java.util.List;
 
-import entity.contract.ShippableProduct;
+import entity.contract.product.ShippableProduct;
 
 public class ShippingService {
     

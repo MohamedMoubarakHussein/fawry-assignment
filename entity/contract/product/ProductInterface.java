@@ -1,4 +1,4 @@
-package entity.contract;
+package entity.contract.product;
 
 public interface ProductInterface {
    

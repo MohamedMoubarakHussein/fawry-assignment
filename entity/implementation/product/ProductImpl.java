@@ -1,6 +1,6 @@
-package entity.implementation;
+package entity.implementation.product;
 
-import entity.contract.ProductInterface;
+import entity.contract.product.ProductInterface;
 
 public class ProductImpl implements  ProductInterface{
 

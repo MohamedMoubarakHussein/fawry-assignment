@@ -1,8 +1,8 @@
-package entity.implementation;
+package entity.implementation.product;
 
 import java.util.Date;
 
-import entity.contract.ExpirationProduct;
+import entity.contract.product.ExpirationProduct;
 
 public class ExpirationalShippableProductImpl extends ShippableProductImpl implements ExpirationProduct {
     private Date expirationDate;

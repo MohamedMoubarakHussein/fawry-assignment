@@ -2,10 +2,10 @@ package entity.entityFactory;
 
 import java.util.Date;
 
-import entity.implementation.ExpirationalShippableProductImpl;
-import entity.implementation.ProductHasExpirationImpl;
-import entity.implementation.ProductImpl;
-import entity.implementation.ShippableProductImpl;
+import entity.implementation.product.ExpirationalShippableProductImpl;
+import entity.implementation.product.ProductHasExpirationImpl;
+import entity.implementation.product.ProductImpl;
+import entity.implementation.product.ShippableProductImpl;
 
 public class ProductFactory {
     

@@ -1,4 +1,4 @@
-package entity.contract;
+package entity.contract.product;
 
 import java.util.Date;
 

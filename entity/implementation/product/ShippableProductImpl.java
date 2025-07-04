@@ -1,6 +1,6 @@
-package entity.implementation;
+package entity.implementation.product;
 
-import entity.contract.ShippableProduct;
+import entity.contract.product.ShippableProduct;
 
 public class ShippableProductImpl  extends ProductImpl implements ShippableProduct{
 
