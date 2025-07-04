@@ -2,7 +2,7 @@ package entity.contract.product;
 
 import java.util.Date;
 
-public interface ExpirationProduct {
+public interface ExpirationProductInterface {
     
     Date getExpirationDate();
 }

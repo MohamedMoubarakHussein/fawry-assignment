@@ -1,6 +1,6 @@
 package entity.contract.product;
 
-public interface ShippableProduct {
+public interface ShippableProductInterface {
     
     Double getWeight();
 }

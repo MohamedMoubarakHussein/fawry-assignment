@@ -2,12 +2,12 @@ package entity.implementation.product;
 
 import java.util.Date;
 
-import entity.contract.product.ExpirationProduct;
+import entity.contract.product.ExpirationProductInterface;
 
-public class ProductHasExpirationImpl extends ProductImpl implements ExpirationProduct {
+public class ProductHasExpiration extends Product implements ExpirationProductInterface {
     private Date expirationDate;
 
-    public ProductHasExpirationImpl(String name , Double price , Integer quantity){
+    public ProductHasExpiration(String name , Double price , Integer quantity){
         super(name, price, quantity);
     }
     @Override

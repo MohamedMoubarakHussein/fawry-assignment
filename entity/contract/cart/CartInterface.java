@@ -1,8 +1,13 @@
 package entity.contract.cart;
 
-import entity.contract.product.ProductInterface;
+import java.util.Map;
+
+import entity.implementation.product.Product;
 
 public interface CartInterface {
     
-    void add(ProductInterface product, Integer quantity);
+    void add(Product product, Integer quantity);
+    Map<Product , Integer> getAllProducts();
+    Map<Product , Integer> getShippableProducts();
+
 }
