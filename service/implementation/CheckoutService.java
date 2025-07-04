@@ -92,7 +92,7 @@ public class CheckoutService {
        
         for(Map.Entry<Product, Integer> i : allProduct.entrySet()){
             if(i.getValue() <= i.getKey().getQuantity()){
-                allProduct.put(i.getKey(),i.getKey().getQuantity()- i.getValue());
+                allProduct.put(i.getKey(),i.getValue());
             }else{
                 return false; 
             }
